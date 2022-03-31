@@ -1,0 +1,24 @@
+/* COMMON */
+
+html {
+    font-size: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+/* HEADER */
+
+/* section logo sony */
+
+div.section-logo-sony {
+    height: 50px;
+    background-color: black;
+}
+
+img.sony-logo-img {
+    width: 7rem;
+    float: right;
+    margin: 15px;
+}
