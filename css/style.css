@@ -56,17 +56,23 @@ a.search-icon {
     margin-left: 1rem;
 }
 
+/* in common  */
+
+div.banner-img-text,
+div.game-1-img-text {
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* MAIN */
 
 /* banner */
 
 div.banner-img-text {
     background-image: url(../img/jumbo-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 700px;
-    display: flex;
     align-items: flex-end;
 }
 
@@ -75,11 +81,13 @@ img.img-logo-banner {
     margin-bottom: 2rem;
 }
 
-div.text-banner {
+div.text-banner,
+div.text-game-1 {
     color: white;
 }
 
-h1#title-banner-game {
+h1#title-banner-game,
+h1#title-game-1 {
     margin-bottom: 3rem;
 }
 
@@ -141,5 +149,59 @@ div.text-info-ps5 > span {
     margin-top: 2rem;
     margin-bottom: 2rem;
     font-weight: bolder;
+}
+
+img.choose-accessories {
+    width: 60%;
+}
+
+div.cont-img-text-accessories {
+    text-align: center;
+}
+
+div.cont-img-text-accessories > div {
+    margin-top: 2rem;
+}
+
+/* game 1 bg */
+
+section.game-1-bg {
+    margin-top: 5rem;
+}
+
+div.game-1-img-text {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    height: 600px;
+    align-items: center;
+}
+
+img.img-logo-game-1 {
+    width: 45%;
+    margin-bottom: 2rem;
+}
+
+/* new releases */
+
+section.new-releases {
+    background-color: #1f1f1f;
+    color: white;
+    padding-bottom: 4rem;
+}
+
+img.img-new-releases {
+    margin-top: 2rem;
+    border-radius: 20px;
+}
+
+h6.name-new-game-releases {
+    margin-top: 1rem;
+}
+
+div.text-new-releases {
+    margin-top: 2rem;
+}
+
+div.text-new-releases > span {
+    font-size: 1.5rem;
 }
 
