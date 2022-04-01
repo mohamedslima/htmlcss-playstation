@@ -128,13 +128,15 @@ span#clr-gray-ps5 {
     color: #838383;
 }
 
-button.btn.play-info {
+button.btn.play-info,
+button.btn.explorer-info {
     background-color: #2c64e6;
     color: white;
     border-radius: 50px;
 }
 
-button.btn.play-info:hover {
+button.btn.play-info:hover,
+button.btn.explorer-info:hover {
     background-color: #2c64e6ad;
 }
 
@@ -205,3 +207,23 @@ div.text-new-releases > span {
     font-size: 1.5rem;
 }
 
+/* explorer ps4 */
+
+section.explorer-ps4 {
+    padding-bottom: 4rem;
+}
+
+div.text-ps4 {
+    text-align: center;
+    margin: 4rem 0 2rem;
+}
+
+div.text-ps4 > span,
+div.cont-explorer-img > span {
+    display: block;
+    color: #838383;
+}
+
+button.btn.explorer-info {
+    margin-top: 1.5rem;
+}
