@@ -10,9 +10,22 @@
     <link rel="stylesheet" href="css/style.css">
 
     <!-- link bootstrap -->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Link font awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
 </head>
 <body>
+
     <header>
         <div class="row">
 
@@ -22,13 +35,211 @@
                 <img src="img/sony_logo.svg" alt="Logo Header Sony" class="sony-logo-img">
             </div>
         </div>
-        <div class="row"></div>
+        <div class="row">
+
+            <!-- navigation bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <button class="navbar-toggler mr-1" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/play_logo.svg" alt="">
+                    </a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Giochi <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Hardware <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Servizi <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Novità <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Fai acquisti <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <span class="clr-gray-arrow">Supporto <i class="fas fa-angle-down"></i></span>
+                        </a>
+                      </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a class="cont-clr-gray-arrow">
+                            <span class="clr-gray-arrow">Home <i class="fas fa-angle-down"></i></span>
+                        </a>
+                        <button class="btn btn-login" type="submit">Accedi</button>
+                        <a href="" class="search-icon">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
     </header>
+
     <main>
 
+        <!-- banner -->
+
+        <section class="sect-banner">
+            <div class="banner-img-text">
+                <div class="container">
+
+                    <!-- logo banner  -->
+
+                    <div class="row">
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <img src="img/returnal-hero-banner-logo.png" alt="returnal logo game" class="img-logo-banner">
+                        </div>
+                    </div>
+
+                    <!-- header and text banner -->
+
+                    <div class="row">
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <div class="text-banner">
+                                <h1 id="title-banner-game">
+                                    Rompi il cerchio
+                                </h1>
+                                <span>
+                                    Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni
+                                    rinascita in questo esplosivo thriller fantascientifico, disponibile
+                                    in esclusiva su PS5.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- button banner -->
+
+                    <div class="row">
+                        <div class="col-xl-4 col-md-12 col-sm-12">
+                            <a href="">
+                                <button class="btn-buy-now-banner">
+                                    Acquista ora
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="choose-game-banner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal mini image" class="choose-img">
+                        </div>
+                        <div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank mini image" class="choose-img">
+                        </div>
+                        <div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal mini image" class="choose-img">
+                        </div>
+                        <div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank mini image" class="choose-img">
+                        </div><div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/returnal-listing-thumb-01-ps5.jpg" alt="returnal mini image" class="choose-img">
+                        </div>
+                        <div class="col-6 col-sm-4 col-xxl-2">
+                            <img src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="ratchet and clank mini image" class="choose-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- playstation 5 -->
+
+        <section class="sect-ps5">
+            <div class="container">
+
+                <!-- title text ps5 -->
+
+                <div class="row">
+                    <div class="col-12">
+                        <div class="ps5-text-title">
+                            <span id="clr-blue-ps5">
+                                PLAY HAS NO LIMITS
+                            </span>
+                            <h1>
+                                Ecco la PlayStation 5
+                            </h1>
+                            <span id="clr-gray-ps5">
+                                Tuffati in nuove possibilità di gioco completamente inaspettate
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- play 5 img and info -->
+
+                <div class="row">
+                    <div class="col-md-5 col-sm-12">
+                        <div class="text-info-ps5">
+                            <h1>
+                                Console PlayStation 5
+                            </h1>
+                            <span>
+                                Sperimenta la nuova generazione di incredibili
+                                giochi PlayStation.
+                            </span>
+                            <a href="">
+                                <button class="btn play-info">
+                                    Maggiori informazioni
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-7 col-sm-12">
+                        <img src="img/playstation-5-thumb.png" alt="">
+                    </div>
+                </div>
+
+                <!-- play 5 choose accessories -->
+
+                <div class="row">
+                    <div class="col-md col-4">
+                        lorem
+                    </div>
+                    <div class="col-md col-4">
+                        lorem
+                    </div>
+                    <div class="col-md col-4">
+                        lorem
+                    </div>
+                    <div class="col-md col-4">
+                        lorem
+                    </div>
+                    <div class="col-md col-4">
+                        lorem
+                    </div>
+                </div>
+
+            </div>
+        </section>
     </main>
+        
     <footer>
 
     </footer>
+
 </body>
 </html>
