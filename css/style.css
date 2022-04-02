@@ -240,7 +240,8 @@ div.ps-plus-text {
     padding-bottom: 4rem;
 }
 
-img.img-ps-plus {
+img.img-ps-plus,
+img.img-ps-now {
     width: 60%;
     padding-bottom: 2rem;
 }
@@ -273,4 +274,37 @@ div.text-game-in-sale > span {
 img.sale-img {
     margin-top: 2rem;
     padding-bottom: 2rem;
+}
+
+/* section ps now */
+
+section.sect-ps-now {
+    background-color: #161c3b;
+}
+
+div.ps-now-text {
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+button.btn.btn-ps-now {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+/* social media */
+
+section.link-social-media {
+    padding-bottom: 7rem;
+}
+
+h2#social-media-title {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+img.social-media-img {
+    margin-top: 4rem;
 }
