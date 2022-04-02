@@ -308,3 +308,43 @@ h2#social-media-title {
 img.social-media-img {
     margin-top: 4rem;
 }
+
+/* FOOTER */
+
+section.policy-and-privacy {
+    background-color: #00439b;
+    color: white;
+    padding-bottom: 5rem;
+}
+
+img.img.footer.up {
+    width: 20%;
+    margin-top: 6rem;
+}
+
+img.img.footer.down {
+    width: 10%;
+}
+
+span.text-fup > i {
+    margin-right: 1rem;
+}
+
+ul.link-footer-n {
+    list-style: none;
+    line-height: 2rem;
+    margin-top: 6rem;
+}
+
+ul.link-footer-n > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+span.more-info-footer {
+    color: white;
+}
+
+span.more-info-footer > a {
+    color: white;
+}
