@@ -219,11 +219,58 @@ div.text-ps4 {
 }
 
 div.text-ps4 > span,
-div.cont-explorer-img > span {
+div.cont-explorer-img > span,
+div.text-game-in-sale > span {
     display: block;
     color: #838383;
 }
 
 button.btn.explorer-info {
     margin-top: 1.5rem;
+}
+
+/* section ps plus */
+
+section.sect-ps-plus {
+    background-color: #bebcbb;
+}
+
+div.ps-plus-text {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+img.img-ps-plus {
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+button.btn.btn-ps-plus {
+    color: #2c64e6;
+    background-color: rgba(255, 255, 255, 0.651);
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+
+/* section game in sale */
+
+section.game-in-sale {
+    margin-top: 5rem;
+}
+
+div.text-game-in-sale {
+    text-align: center;
+}
+
+div.text-game-in-sale > h2 {
+    font-size: 2.5rem;
+}
+
+div.text-game-in-sale > span {
+    margin-top: 1.5rem;
+}
+
+img.sale-img {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
 }
